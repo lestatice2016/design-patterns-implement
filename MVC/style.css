@@ -1,0 +1,19 @@
+.calculator{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.view{
+    height: 170px;
+    line-height: 170px;
+    margin: 0 auto;
+}
+.operate{
+    display: flex;
+}
+.add,.cut{
+    background-color: blue;
+    height: 30px;
+    flex: 1;
+    line-height: 18px;
+}
