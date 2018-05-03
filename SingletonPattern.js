@@ -1,3 +1,4 @@
+//通过IIFE也是单例模式实现中重要的一步.
 var king = (function () {
     var instance;
     function init() {
